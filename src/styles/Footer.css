@@ -1,0 +1,46 @@
+.Footer {
+  padding: 20px 30px;
+
+  background-color: #1e1e1e;
+  text-decoration: none;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+.sosiale-medier {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  font-size: 4em;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.icon {
+  padding: 1vh;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+.copyright_tekst {
+  font-weight: 300;
+}
