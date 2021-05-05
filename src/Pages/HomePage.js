@@ -1,6 +1,13 @@
 import React from "react";
 import "../styles/Homepage.css";
-import { TantegerdaLogo } from "../assets/icons";
+import {
+  AdobeLogo,
+  FigmaLogo,
+  ReactLogo,
+  StrapiLogo,
+  TantegerdaLogo,
+  VueLogo,
+} from "../assets/icons";
 import picture_of_me from "../assets/img/Picture-of-me.png";
 
 function HomePage() {
@@ -17,27 +24,31 @@ function HomePage() {
         <img className="TopImg" src={picture_of_me} alt="" />
 
         <h3 className="TopNorwegian">NORWEGIAN</h3>
-        <h2 className="TopDev">Developer & Designer</h2>
+        <h2 className="TopDev">Full Stack Developer</h2>
       </div>
 
       <div className="specialties">
         <h2>Specialties</h2>
 
-        <div className="specialties-undertitles">
-          <h3>React JS</h3>
-        </div>
-        <div className="specialties-undertitles">
-          <h3>Vue JS</h3>
-        </div>
-        <div className="specialties-undertitles">
-          <h3>Strapi CMS</h3>
-        </div>
-        <div className="specialties-undertitles">
-          <h3>Figma</h3>
-        </div>
-        <div className="specialties-undertitles">
-          <h3>Adobe</h3>
-        </div>
+        <ReactLogo className="specialties-icon" />
+
+        <h3>React JS</h3>
+
+        <VueLogo className="specialties-icon" />
+
+        <h3>Vue JS</h3>
+
+        <StrapiLogo className="specialties-icon" />
+
+        <h3>Strapi CMS</h3>
+
+        <FigmaLogo className="specialties-icon" />
+
+        <h3>Figma</h3>
+
+        <AdobeLogo className="specialties-icon" />
+
+        <h3>Adobe</h3>
       </div>
 
       <div className="Referanser">

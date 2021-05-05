@@ -5,6 +5,10 @@
 }
 
 body {
-  font-family: "Rajdhani", sans-serif;
-  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
 }
