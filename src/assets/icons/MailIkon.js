@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function SvgMailIkon(props) {
+function SvgMailIcon(props) {
   return (
     <svg
       width="1em"
@@ -22,4 +22,4 @@ function SvgMailIkon(props) {
   );
 }
 
-export default SvgMailIkon;
+export default SvgMailIcon;

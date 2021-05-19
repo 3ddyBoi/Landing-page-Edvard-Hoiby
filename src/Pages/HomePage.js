@@ -1,4 +1,6 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
+
 import "../styles/Homepage.css";
 import {
   AdobeLogo,
@@ -11,6 +13,9 @@ import {
 import picture_of_me from "../assets/img/Picture-of-me.png";
 
 function HomePage() {
+  const history = useHistory();
+  const handleOnClick = () => history.push("/portfolio");
+
   return (
     <div className="Homepage">
       <div className="Top">
@@ -18,7 +23,7 @@ function HomePage() {
           <span>Edvard Høiby</span>
         </h1>
 
-        <button className="TopButton">
+        <button onClick={handleOnClick} type="button" className="TopButton">
           <span>Portfolio</span>
         </button>
         <img className="TopImg" src={picture_of_me} alt="" />
@@ -53,27 +58,25 @@ function HomePage() {
 
       <div className="Referanser">
         <h2>Referanser</h2>
-        <div>
-          <div>
-            <a href="a-link" target="blank">
-              <TantegerdaLogo />
-            </a>
-          </div>
-          <div>
-            <a href="a-link" target="blank">
-              <TantegerdaLogo />
-            </a>
-          </div>
-          <div>
-            <a href="a-link" target="blank">
-              <TantegerdaLogo />
-            </a>
-          </div>
-          <div>
-            <a href="a-link" target="blank">
-              <TantegerdaLogo />
-            </a>
-          </div>
+        <div className="Referanser-icon">
+          <a href="a-link" target="blank">
+            <TantegerdaLogo />
+          </a>
+        </div>
+        <div className="Referanser-icon">
+          <a href="a-link" target="blank">
+            <TantegerdaLogo />
+          </a>
+        </div>
+        <div className="Referanser-icon">
+          <a href="a-link" target="blank">
+            <TantegerdaLogo />
+          </a>
+        </div>
+        <div className="Referanser-icon">
+          <a href="a-link" target="blank">
+            <TantegerdaLogo />
+          </a>
         </div>
       </div>
       <div className="Contact">

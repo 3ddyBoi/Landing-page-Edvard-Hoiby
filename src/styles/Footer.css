@@ -17,8 +17,10 @@ a {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 
-  font-size: 4em;
+  font-size: 3em;
   font-family: "Times New Roman", Times, serif;
+
+  justify-items: center;
 }
 
 .icon {

@@ -126,8 +126,8 @@
   height: 50vh;
 
   display: grid;
-  grid-template-columns: 0.7fr 1fr;
-  grid-template-rows: 60px repeat(5);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
@@ -143,12 +143,31 @@
 }
 
 .Referanser-icon {
-  justify-self: end;
+  justify-self: center;
   align-self: center;
-  margin-right: 5px;
+  font-size: 4em;
 }
 
 .Contact {
   background-color: #fdfe52;
+
   height: 50vh;
+  padding: 5rem 3rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.Contact h2 {
+  justify-self: center;
+  align-self: center;
+}
+
+.Contact h3 {
+  font-size: 1.2rem;
+  align-self: center;
+  justify-self: center;
 }

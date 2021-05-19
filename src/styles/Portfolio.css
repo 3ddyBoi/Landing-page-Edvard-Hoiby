@@ -1,0 +1,34 @@
+.Portfolio {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.Portfolio button {
+  border: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  color: #fff;
+
+  justify-self: center;
+  align-self: center;
+  font-size: 3.5rem;
+  margin-top: 2vh;
+  margin-bottom: 0;
+}
+
+.Prosjekter {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.Prosjekter img {
+  margin: 2vh 0;
+
+  justify-self: center;
+  width: 95vw;
+}
