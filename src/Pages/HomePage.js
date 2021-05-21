@@ -10,7 +10,8 @@ import {
   TantegerdaLogo,
   VueLogo,
 } from "../assets/icons";
-import picture_of_me from "../assets/img/Picture-of-me.png";
+import picture_of_me_phone from "../assets/img/Picture-of-me-phone.png";
+import picture_of_me_pc from "../assets/img/Picture-of-me-pc.jpg";
 
 function HomePage() {
   const history = useHistory();
@@ -26,7 +27,9 @@ function HomePage() {
         <button onClick={handleOnClick} type="button" className="TopButton">
           <span>Portfolio</span>
         </button>
-        <img className="TopImg" src={picture_of_me} alt="" />
+
+        <img className="TopImgPhone" src={picture_of_me_phone} alt="" />
+        <img className="TopImgPc" src={picture_of_me_pc} alt="" />
 
         <h3 className="TopNorwegian">NORWEGIAN</h3>
         <h2 className="TopDev">Full Stack Developer</h2>
