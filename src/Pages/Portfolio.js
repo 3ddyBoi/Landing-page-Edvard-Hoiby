@@ -7,10 +7,10 @@ import "../styles/Portfolio.css";
 import Footer from "../Components/Footer";
 
 import TanteGerdaFremside from "../assets/img/websites-screenshots/tantegerda/Tante-gerda-fremside.png";
-import TanteGerdaFremsideKontakt from "../assets/img/websites-screenshots/tantegerda/Tante-gerda-fremside-kontakt.png";
-import TanteGerdaFremsideProduktTeaser from "../assets/img/websites-screenshots/tantegerda/Tante-gerda-fremside-produkt-teaser.png";
-import TanteGerdaNav from "../assets/img/websites-screenshots/tantegerda/Tante-gerda-nav.png";
-import TanteGerdaFooter from "../assets/img/websites-screenshots/tantegerda/Tante-gerda-footer.png";
+// import TanteGerdaFremsideKontakt from "../assets/img/websites-screenshots/tantegerda/Tante-gerda-fremside-kontakt.png";
+// import TanteGerdaFremsideProduktTeaser from "../assets/img/websites-screenshots/tantegerda/Tante-gerda-fremside-produkt-teaser.png";
+// import TanteGerdaNav from "../assets/img/websites-screenshots/tantegerda/Tante-gerda-nav.png";
+// import TanteGerdaFooter from "../assets/img/websites-screenshots/tantegerda/Tante-gerda-footer.png";
 
 function Portfolio() {
   const history = useHistory();
