@@ -27,8 +27,8 @@
 }
 
 .Prosjekter img {
-  margin: 2vh 0;
+  margin: 5vh 0 25vh 0;
 
   justify-self: center;
-  width: 95vw;
+  width: 40vw;
 }

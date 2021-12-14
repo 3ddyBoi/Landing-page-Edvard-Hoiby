@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import Portfolio from "./Pages/Portfolio";
+import Modal from "./Components/Modal";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
 
@@ -11,6 +12,7 @@ ReactDOM.render(
     <Router>
       <Route strict exact path="/" component={App} />
       <Route strict exact path="/portfolio" component={Portfolio} />
+      <Route strict exact path="/modal" component={Modal} />
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
